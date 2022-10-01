@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "xDrl8w+uWHtnMvN1B+CuA9xd8OBtJ+shiemVyAB9oNjTpsx5o7st17zoKhNiCxNHeC6oJw577NOePk8mxYKVdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\yohanna familia\\iClock\\iClock\\iClock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
