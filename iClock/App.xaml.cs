@@ -1,5 +1,4 @@
 ﻿using iClock.Locator;
-using iClock.Services;
 using iClock.ViewModels;
 using iClock.Views;
 using System;

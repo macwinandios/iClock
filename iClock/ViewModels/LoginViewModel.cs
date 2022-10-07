@@ -1,11 +1,7 @@
 ﻿using iClock.Base;
-using iClock.Commands;
-using iClock.Models;
-using iClock.Services;
+using iClock.Factory;
+using iClock.Interfaces;
 using iClock.Views;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -13,23 +9,20 @@ namespace iClock.ViewModels
 {
     public class LoginViewModel : ViewModelBase
     {
-
-        public LoginViewModel(LoginModel loginModel)
+        public LoginViewModel(ILoginModel loginModel)
         {
-            LoginModel = loginModel;
+            var loginModelObject = ObjectFactory.CreateLoginModel(Model.LoginModel);
+            _loginModel = loginModel;
+        }
+        public LoginViewModel()
+        {
+
         }
 
         //PRIVATE MEMBERS
         ICommand _guestLoginCommand;
-        LoginModel _loginModel;
-
-
+        ILoginModel _loginModel;
         //PUBLIC PROPERTIES 
-        public LoginModel LoginModel
-        {
-            get => _loginModel;
-            set => SetProperty(ref _loginModel, value);
-        }
         public string AdminPassword
         {
             get => _loginModel.AdminPassword;
@@ -73,8 +66,8 @@ namespace iClock.ViewModels
         //METHOD FOR GUEST TO BYPASS LOGIN CREDENTIALS
         public async void GuestLoginAsync()
         {
-            await Application.Current.MainPage.Navigation.PushAsync(new ManagerTabs());
+            await Application.Current.MainPage.Navigation.PushAsync(new EmployeeTabs());
         }
         public ICommand GuestLoginCommand => _guestLoginCommand ?? (_guestLoginCommand = new Command(GuestLoginAsync));
-    }
+    } 
 }

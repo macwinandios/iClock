@@ -8,7 +8,8 @@
                     HorizontalOptions="CenterAndExpand"
                     FontSize="15"
                     FontAttributes="Bold"
-                    Command="{Binding GuestLoginCommand}"/>
+                    Command= "{Binding GuestLoginCommand}"/>
+            
             
         </StackLayout>
     </ContentPage.Content>

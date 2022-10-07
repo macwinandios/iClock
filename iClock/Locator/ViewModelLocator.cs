@@ -1,5 +1,6 @@
 ﻿using iClock.Base;
-using iClock.Services;
+using iClock.Interfaces;
+using iClock.Models;
 using iClock.ViewModels;
 using iClock.Views;
 using System;
@@ -35,6 +36,13 @@ namespace iClock.Locator
 
             //REGISTER SERVICES (SERVICES ARE REGISTERED AS SINGLETONS BY DEFAULT)
             //_container.Register<IGuestLoginService, GuestLoginService>();
+            _container.Register<ILoginModel, LoginModel>();
+            _container.Register<IPayEmployee, PayEmployee>();
+            _container.Register<IPayManager, PayManager>();
+            _container.Register<ITaskEmployee, TaskEmployee>();
+            _container.Register<ITaskManager, TaskManager>();
+            _container.Register<ITimeEmployee, TimeEmployee>();
+            _container.Register<ITimeManager, TimeManager>();
         }
 
         public static T Resolve<T>() where T : class

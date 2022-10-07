@@ -18,13 +18,13 @@ namespace iClock.Views
             InitializeComponent();
 
             var timeEmployeeView = ViewModelLocator.Resolve<TimeEmployeeView>();
-            timeEmployeeView.Title = "CLOCK";
+            timeEmployeeView.Title = "MY CLOCK";
 
             var payEmployeeView = ViewModelLocator.Resolve<PayEmployeeView>();
-            payEmployeeView.Title = "PAY";
+            payEmployeeView.Title = "MY PAY";
 
             var taskEmployeeView = ViewModelLocator.Resolve<TaskEmployeeView>();
-            taskEmployeeView.Title = "TASKS";
+            taskEmployeeView.Title = "MY TASKS";
 
 
             // ADD PAGES TO TABBED PAGE

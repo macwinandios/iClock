@@ -1,10 +1,11 @@
-﻿using System;
+﻿using iClock.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace iClock.Models
 {
-    public class LoginModel
+    public class LoginModel : ILoginModel
     {
         public string Password { get; set; }
         public string Username { get; set; }
