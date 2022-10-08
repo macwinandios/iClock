@@ -1,4 +1,5 @@
 ﻿using iClock.Base;
+using iClock.Commands;
 using iClock.Factory;
 using iClock.Interfaces;
 using iClock.Views;
@@ -16,12 +17,13 @@ namespace iClock.ViewModels
         }
         public LoginViewModel()
         {
-
+            
         }
 
         //PRIVATE MEMBERS
         ICommand _guestLoginCommand;
         ILoginModel _loginModel;
+
         //PUBLIC PROPERTIES 
         public string AdminPassword
         {
