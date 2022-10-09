@@ -1,5 +1,6 @@
 ﻿using iClock.Interfaces;
 using iClock.Models;
+using iClock.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,6 +10,7 @@ namespace iClock.Factory
     public enum Model
     {
         LoginModel,
+        LoginRepository,
         PayEmployee,
         PayManager,
         TaskEmployee,
@@ -21,6 +23,14 @@ namespace iClock.Factory
         public static ILoginModel CreateLoginModel(Model model)
         {
             return new LoginModel();
+        }
+        public static ILoginRepository CreateLoginRepository(Model model)
+        {
+            return new LoginRepository();
+        }
+        public static ILoginRepository CreateMockLoginRepository(Model model)
+        {
+            return new MockLoginRepository();
         }
         public static IPayEmployee CreatePayEmployee(Model model)
         {

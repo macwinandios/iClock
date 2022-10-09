@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZsAd6ZWAnAmsp4XursNbuOqNmfIuKPxOOKPF32EYu9pycV/Hn1j1u8QHBCKCy5LOmy10fbr9Z2x2a5IqiPoYnw==",
+  "dgSpecHash": "0auAjYas11eje7YHxtLq8/kQQug2I6cWpBkpp0sr51K5n8AWyLpNSf33YCaEYgA6lrV8nsGy+Rh+WjaYbuH6sw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\yohanna familia\\iClock\\iClock.iOS\\iClock.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

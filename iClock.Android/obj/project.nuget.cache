@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lck4K/KMbHiAH7fj7uisCtQr2xWbxbgV2JKX0iE9jAPMNXFAml2hz+9j2BWS2LJ/P19CHqcq1ZDEtfvWeCJ4Ow==",
+  "dgSpecHash": "WQuEQuctII0nj5xE1DHqotDbo3lvI4vCHA9lV0jZaXlO6YcwWlOx+TkU7zlzYG8oG3jvW1y/uDh2FjXN6NsPFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\yohanna familia\\iClock\\iClock.Android\\iClock.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
